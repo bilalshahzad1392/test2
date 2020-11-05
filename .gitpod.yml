@@ -1,0 +1,9 @@
+image:
+  file: Dockerfile
+
+tasks:
+  - init: 'echo "TODO: Replace with init/build command"'
+    command: 'echo "TODO: Replace with command to start project"'
+ports:
+  - port: 32770
+    onOpen: open-preview
