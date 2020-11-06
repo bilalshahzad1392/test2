@@ -3,5 +3,5 @@ image:
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
-    command: 'dotnet build WebApplication1.csproj'
-
+    command: 'dotnet build WebApplication1.csproj'  
+  - command: 'dotnet WebApplication1.dll'
