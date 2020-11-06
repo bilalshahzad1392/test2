@@ -1,7 +1,7 @@
 image:
-  file: Dockerfile
+  file: .gitpod.Dockerfile
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+    command: 'dotnet build WebApplication1.csproj'
 
